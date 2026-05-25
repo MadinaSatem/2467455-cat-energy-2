@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["source/scripts/index.js"],
+  "sourcesContent": ["const navMain = document.querySelector('.navigation');\nconst navToggle = document.querySelector('.navigation__toggle');\n\nnavMain.classList.remove('navigation--nojs');\nnavMain.classList.add('navigation--closed');\n\nnavToggle.addEventListener('click', () => {\n  if (navMain.classList.contains('navigation--closed')) {\n    navMain.classList.remove('navigation--closed');\n    navMain.classList.add('navigation--opened');\n  } else {\n    navMain.classList.remove('navigation--opened');\n    navMain.classList.add('navigation--closed');\n  }\n});\n"],
+  "mappings": ";AAAA,IAAM,UAAU,SAAS,cAAc,aAAa;AACpD,IAAM,YAAY,SAAS,cAAc,qBAAqB;AAE9D,QAAQ,UAAU,OAAO,kBAAkB;AAC3C,QAAQ,UAAU,IAAI,oBAAoB;AAE1C,UAAU,iBAAiB,SAAS,MAAM;AACxC,MAAI,QAAQ,UAAU,SAAS,oBAAoB,GAAG;AACpD,YAAQ,UAAU,OAAO,oBAAoB;AAC7C,YAAQ,UAAU,IAAI,oBAAoB;AAAA,EAC5C,OAAO;AACL,YAAQ,UAAU,OAAO,oBAAoB;AAC7C,YAAQ,UAAU,IAAI,oBAAoB;AAAA,EAC5C;AACF,CAAC;",
+  "names": []
+}
